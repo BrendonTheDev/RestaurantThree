@@ -3,8 +3,8 @@ function createHome() {
   home.classList.add("home");
 
   const homeImage = document.createElement("img");
-  homeImage.src = "images/homecat.png";
-  homeImage.alt = "Chef Cat";
+  homeImage.src = "../src/coffee.jpg";
+  homeImage.alt = "Cat coffee";
 
   home.appendChild(createParagraph("Gourmet Cat Cafe"));
   home.appendChild(createParagraph("With 9 lives, its time to live well."));
